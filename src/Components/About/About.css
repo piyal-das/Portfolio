@@ -1,0 +1,17 @@
+.sizing{
+   
+    position: relative;
+    width: 100%;
+   
+    
+   
+}
+.sizing::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    top: 0;
+  }
+  
